@@ -47,7 +47,7 @@ button:hover { background: #0056b3;
     <body>
 <div class="card">
  <h1>SENAI</h1>
- <p>  g  Página simples combinando HTML, CSS e Javascript</p>
+ <p> Página simples combinando HTML, CSS e Javascript</p>
  <div class="contador" id="numero-contador">0</div>/
  <button id="botao-clique">clique aqui!</button>
 
@@ -57,7 +57,7 @@ button:hover { background: #0056b3;
 const btn = document.getElementById('botao-clique');
 const num = document.getElementById('numero-contador');
 let c = 0;
-btn.addEventlistener('click', () => num.textContent = ++c);
+btn.addEventListener('click', () => num.textContent = ++c);
  </script>
  </body>
 </html>
